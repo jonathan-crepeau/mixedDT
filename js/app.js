@@ -17,6 +17,8 @@ const mixedDataArray = [
   },
 ];
 
+
+
 // SECTION - Part 1: For each of the following, write which DATAT TYPES you would use to represent the data, then give a small example of the data structure.
 
 // 1. A light switch that can be either on or off.
@@ -82,3 +84,35 @@ const studentInformation = [
     favTVShow: 'Planet Earth - Great Plains',
   },
 ];
+
+
+
+// SECTION - Part 2: Take it Easy. 
+
+// 1. Make an array that holds all the colors of the rainbow:
+
+let rainbowColors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+// 2. Write code that will access 'blue' from the rainbow array:
+
+function getBlue() {
+  console.log(rainbowColors[4]);
+}
+
+// 3. Make an object that is called your name and holds the info about your favorite food, a hobby, the name of the town you currently live and your favorite data type:
+
+const jonathanObject = {
+  favFood: 'salsa & chips',
+  hobby: 'hiking',
+  town: 'San Anselmo',
+  favDataType: 'Object',
+};
+
+// 4. Write code that will access your hobby from the object that you just created:
+
+function selectHobby() {
+  console.log(jonathanObject.hobby);
+};
+
+
+
